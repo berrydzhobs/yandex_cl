@@ -1,0 +1,143 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --grayA: #657786;
+    --gray-light: #f8f5fa;
+    --border-color: #e6ecf0;
+    --base-color: 90;
+    --main-color: hsla(var(--base-color), 80%, 46%, 1);
+    --hover-color: hsla(var(--base-color), 80%, 47%, 1);
+    --bg-hover-color: hsla(var(--base-color), 80%, 53%, 0.1);
+    --shadow: rgba(101, 119, 134, 0.2) 0px 0px 8px, rgba(101, 119, 134, 0.25) 0px 1px 3px 1px;;
+}
+
+@charset "UTF-8";
+/****** More of My Resets *******/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:focus {
+  outline: none;
+}
+
+html {
+    font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+input{
+	border: solid 3px #fcff00 !important;
+}
+
+input:hover {
+	border: solid 3px #fafb97 !important;
+}
+
+header{
+	height: 45pt;
+	top: 0;
+	position: sticky;
+	background-color: #ffffff;
+	z-index: 1000;
+}
+
+
+
+.j-header-logo{
+
+
+}
+
+
+
+/* Conatiners space */
+
+.j-container{
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+/*Postioning*/
+
+.j-flex{
+    display: flex;
+}
+
+.j-flex-middle{
+    align-items: center;
+}
+
+.j-flex-center{
+    justify-items: center;
+}
+
+.j-flex-right{
+    justify-items: flex-start;
+    flex: 1;
+}
+
+.j-flex-left{
+    justify-items: flex-end;
+}
+
+
+.j-width-1-1{
+	box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.j-height-view-port{
+	height: 80vh;
+}
+
+/*roundness*/
+
+.j-rounded-sm{
+	border-radius: 4px !important;
+}
+
+.j-rounded-m{
+	border-radius: 7px !important;
+}
+
+.j-rounded{
+	border-radius: 12px !important;
+}
+
+.j-rounded-lg{
+	border-radius: 17px !important;
+}
+
+.j-rounded-full{
+	border-radius: 100% !important;
+}
+
+/*shapes and avatars*/
+
+.j-sq-avatar{
+	height: 80pt;
+	width: 80pt;
+}
+
+
+.j-chat{
+	height: 3.2rem;
+	width: 3.2rem;
+	background-color: #9D00FB;
+	bottom: 1.6rem;
+	right: 1.2rem;
+	position: fixed;
+}
+
+
+[class~=m-auto] {
+    margin-left: auto !important;
+}
+
+[class~=m-auto] {
+    margin-right: auto !important;
+}
